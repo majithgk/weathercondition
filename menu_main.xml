@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.MainActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@mipmap/ic_refresh"
+        android:orderInCategory="100"
+        android:title="action_refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_Setting"
+        android:icon="@mipmap/setting"
+        android:orderInCategory="100"
+        android:title="action_setting"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/w"
+    tools:context="com.example.live_pc.weathercondition.Activity.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Please Select Your City In Srilanka"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="20dp"
+            android:hint="City"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black">
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/btnselected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorAccen"
+            android:text="Selected" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
